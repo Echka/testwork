@@ -1,8 +1,436 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+* {
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+}
 
-// Variables
-@import 'variables';
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+.greyC1 {
+  color: #1D1E1F;
+}
+
+.greyC2 {
+  color: #A6A5A5;
+}
+
+.greyC3 {
+  color: #EAEAEA;
+}
+
+.greyC4 {
+  color: #383838;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+// HEADER STYLE START HERE
+.navigationUl {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 729px;
+  height: 55px;
+}
+
+.navigationUl > li {
+  display: inline-block;
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+.navigationUl > li > a {
+  padding: 18.5px 23px;
+  display: block;
+  color: #989696;
+}
+
+.active {
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.centerNavElement {
+  background-color: #121212;
+  background-size: 22px 23px;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 45px;
+  margin: 0 20px;
+}
+
+.centerNavElement > a {
+  padding: 1.5px 11.3px !important;
+  color: #ffffff !important;
+}
+// HEADER STYLE FINISH HERE
+
+
+// Page HEADER STYLE START HERE
+
+.topBlock {
+  height: 595px;
+  width: 100%;
+  padding-top: 299px;
+}
+
+.buttonRM {
+  height: 55px;
+  width: 188px;
+  border: 1px solid black;
+  text-transform: uppercase;
+  background: white;
+  margin: 48px auto 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.divCircles {
+  margin: 0 auto;
+  width: 10px;
+  margin-top: 285px;
+}
+
+.divCircles > div {
+  margin-bottom: 8px;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.circles1 {
+  background: #f0f0f0;
+}
+
+.circles2 {
+  background: #e0e0e0;
+}
+
+.circles3 {
+  background: #d0d0d0;
+}
+
+// Page HEADER STYLE FINISH HERE
+
+// Page Main Block STYLE START HERE
+
+.mainBlock {
+  height: 1336px;
+  width: 100%;
+  background: #1d1d1d;
+  background-image: url(/img/Layer1.png), url(/img/Buildings__White.png);
+  background-repeat: repeat-x;
+  background-position: bottom -2px left -177px;;
+}
+
+.verticalLine {
+  width: 5px;
+  height: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.verticalLine > div {
+  background: #1d1d1d;
+}
+
+.verticalCircles1 {
+  margin: 150px auto 0 -10px;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 14px;
+  border: 5px solid white;
+}
+
+.verticalCircles2 {
+  margin: 272px auto 0 -10px;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 14px;
+  border: 5px solid white;
+}
+
+.verticalCircles3 {
+  margin: 505px auto 0 -20px;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 34px;
+  border: 5px solid white;
+}
+
+.verticalCircles4 {
+  margin: 746px auto 0 -10px;
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 14px;
+  border: 5px solid white;
+}
+
+.textCircles1 {
+  width: 420px;
+  margin-top: 142px;
+  margin-left: -496px;
+  position: absolute;
+  color: #fefefe;
+}
+
+.textCircles2 {
+  margin-top: 264px;
+  margin-left: 81px;
+  position: absolute;
+  color: #fefefe;
+  width: 420px;
+}
+
+.textCircles3 {
+  margin-top: 506px;
+  margin-left: -506px;
+  position: absolute;
+  color: #fefefe;
+  width: 420px;
+}
+
+.textCircles4 {
+  margin-top: 738px;
+  margin-left: 81px;
+  position: absolute;
+  color: #fefefe;
+  width: 420px;
+}
+
+.verticalLine > div > span {
+  color: #989898;
+}
+
+
+// Page Main Block STYLE FINISH HERE
+
+// Page Team Block STYLE START HERE
+
+.ourTeam {
+  height: 720px;
+  width: 100%;
+  padding-top: 85px;
+}
+
+.memberTeamBlock {
+  margin: 0 auto;
+  padding-top: 125px;
+  width: 1030px;
+}
+
+.memberTeamBlock > div > img {
+  margin: 0 30px;
+}
+
+.memberTeam1 {
+  width: 230px;
+  height: 285px;
+  float: left;
+  margin-top: 90px;
+}
+
+.memberTeam2 {
+  width: 230px;
+  height: 285px;
+  float: left;
+  margin: 0 170px;
+}
+
+.memberTeam3 {
+  width: 230px;
+  height: 285px;
+  float: left;
+  margin-top: 90px;
+}
+
+.memberTeamIcons {
+  width: 68px;
+  margin: 20px auto;
+}
+
+.memberTeamIcons > img {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+// Page Team Block STYLE FINISH HERE
+
+// Page Line Block STYLE START HERE
+
+.hor-verLine {
+  width: 100%;
+  height: 200px;
+  background-color: #8c8c8c;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjQ5OSIvPjxzdG9wIHN0b3AtY29sb3I9IiMxODE4MTgiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUwMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0.499, rgb(255, 255, 255)),color-stop(0.501, rgb(24, 24, 24)));
+  /* Android 2.3 */
+  background-image: -webkit-linear-gradient(top left,rgb(255, 255, 255) 49.9%,rgb(24, 24, 24) 50.1%);
+  /* IE10+ */
+  background-image: linear-gradient(to bottom right,rgb(255, 255, 255) 49.9%,rgb(24, 24, 24) 50.1%);
+  background-image: -ms-linear-gradient(top left,rgb(255, 255, 255) 49.9%,rgb(24, 24, 24) 50.1%);
+}
+
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+  .hor-verLine {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffffff",endColorstr="#ff181818",GradientType=0);
+  }
+}
+
+.hor-verLine2 {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  margin-top: -210px;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMxODE4MTgiIHN0b3Atb3BhY2l0eT0iMCIgb2Zmc2V0PSIwLjQ5OSIvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUwMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0.499, rgba(24, 24, 24, 0)),color-stop(0.501, rgb(255, 255, 255)));
+  /* Android 2.3 */
+  background-image: -webkit-linear-gradient(top left,rgba(24, 24, 24, 0) 49.9%,rgb(255, 255, 255) 50.1%);
+  /* IE10+ */
+  background-image: linear-gradient(to bottom right,rgba(24, 24, 24, 0) 49.9%,rgb(255, 255, 255) 50.1%);
+  background-image: -ms-linear-gradient(top left,rgba(24, 24, 24, 0) 49.9%,rgb(255, 255, 255) 50.1%);
+}
+
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+  .hor-verLine2 {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00181818",endColorstr="#ffffffff",GradientType=0);
+  }
+}
+
+
+
+// Page Line Block STYLE FINISH HERE
+
+// Page Service Block STYLE START HERE
+
+.ourServiceBlock {
+  width: 100%;
+  height: 1460px;
+  background: #181818;
+  padding-top: 44px;
+}
+
+.serviceBlock {
+  margin: 0 auto;
+  padding-top: 215px;
+  width: 1171px;
+}
+
+.serviceBlock > div {
+  width: 370px;
+  float: left;
+}
+
+.serviceBlock > div > h1 {
+  margin-bottom: 35px;
+}
+
+.serviceBlock > div > img {
+  margin: 0 100px 45px 100px;
+}
+
+// Page Service Block STYLE FINISH HERE
+
+// Page Blog Block STYLE START HERE
+
+.blogBlock {
+  background-image: url(/img/Post51.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 630px;
+  width: 100%;
+  float: left;
+  margin-top: 170px;
+}
+
+.buttonVOB {
+  height: 64px;
+  width: 217px;
+  border: 1px solid black;
+  text-transform: uppercase;
+  background: white;
+  margin: 349px auto 0 auto;
+  display: block;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+// Page Blog Block STYLE FINISH HERE
+
+// Page Footer Block STYLE START HERE
+
+footer {
+  height: 1060px;
+  width: 100%;
+  padding-top: 93px;
+}
+
+.footerBlock {
+  margin: 0 auto;
+  padding-top: 65px;
+  width: 550px;
+}
+
+.footerBlock > div {
+  width: 33.3333333%;
+  float: left;
+}
+
+.footerBlock > div > img {
+  margin: 0 calc(50% - 10px);
+}
+
+#feedbackForm {
+  width: 770px;
+  margin: 150px auto 0 auto;
+}
+
+#feedbackForm > input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #999999;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e3e3e3;
+}
+
+#feedbackForm > textarea {
+  width: calc(100% - 42px);
+  height: 195px;
+  border: 1px solid #999999;
+  margin-bottom: 20px;
+  padding: 21px;
+  color: #6f6f6f;
+}
+
+#feedbackSubmit {
+  width: 100%;
+  background: #161616;
+  font-weight: 900;
+  height: 52px;
+  font-size: 20px;
+}
+
+.copyrightP {
+  margin-top: 155px;
+}
+
+// Page Footer Block STYLE FINISH HERE
